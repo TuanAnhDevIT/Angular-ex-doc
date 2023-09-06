@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { UppercasePipe } from './uppercase.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    UppercasePipe
   ],
   imports: [
     BrowserModule,
