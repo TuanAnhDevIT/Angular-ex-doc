@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeroChildComponent } from './hero-child.component';
+import { HeroParentComponent } from './hero-parent.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeroChildComponent,
+    HeroParentComponent
   ],
   imports: [
     BrowserModule,
